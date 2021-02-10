@@ -28,8 +28,7 @@
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
   border-radius: 8px 8px 0 0;
-  background-size: cover center;
-  object-fit: cover;
+  background-size: cover;
   width: 300px;
   height: 250px;
 }
