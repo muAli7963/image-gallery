@@ -13,6 +13,11 @@
   align-items: center;
 }
 .loading-text {
+  color: #75cfb8;
+  text-align: center;
+}
+.no-image {
+  color: #75cfb8;
   text-align: center;
 }
 .card {

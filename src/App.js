@@ -22,8 +22,11 @@ export default function App() {
   return (
     <div className="app">
       <ImageSearch searchTerm={(text) => setTerm(text)} />
+      {!isLoading && images.length === 0 && (
+        <h1 className="no-image">no images found</h1>
+      )}
       {isLoading ? (
-        <h1 className="loading-text">Loading...</h1>
+        <h2 className="loading-text">Loading...</h2>
       ) : (
         <div className="container">
           {images.map((image) => (
