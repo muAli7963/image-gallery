@@ -68,11 +68,11 @@ span {
 .searchTerm {
   width: 100%;
   font-size: 18px;
-  border: 3px solid#75cfb8;
+  border: 2px solid#75cfb8;
   border-right: none;
   padding: 5px;
   height: 50px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 14px 0 0 5px;
   outline: none;
   color: #9dbfaf;
 }
@@ -88,7 +88,7 @@ span {
   background: #75cfb8;
   text-align: center;
   color: #fff;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 14px 0;
   cursor: pointer;
   font-size: 20px;
 }
